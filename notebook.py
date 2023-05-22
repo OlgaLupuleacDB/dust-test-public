@@ -1,2 +1,4 @@
 # Databricks notebook source
-print("Hello World")
+result = "Hello from the Python World"
+print(result)
+dbutils.notebook.exit(result)
